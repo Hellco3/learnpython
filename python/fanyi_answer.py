@@ -28,7 +28,7 @@ class YouDaoFanyi(object):
 
 
 
-class Application(object):
+class Application(object): 
     def __init__(self):
         self.window = Tk()
         self.fanyi = YouDaoFanyi()
